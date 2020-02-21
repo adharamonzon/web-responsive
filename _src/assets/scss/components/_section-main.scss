@@ -1,9 +1,57 @@
-main {
+/* COSAS POR HACER:
+  quitar los bordes main/main-info/main-purchase
+  boton!! */
+/* main {
   border: solid green 3px;
-}
+} */
 .main-info {
-  border: solid rgb(84, 84, 235) 3px;
+  /* border: solid rgb(84, 84, 235) 3px; */
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+  .info {
+    width: 90px;
+    height: 30px;
+    font-family: "Roboto Slab";
+    color: #8ccbea;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .title {
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    line-height: 30px;
+    height: 60px;
+    width: 290px;
+  }
+  .text {
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    line-height: 30px;
+    color: #4a4a4a;
+    text-align: left;
+  }
+  .btn {
+    border: solid 3px #f26002;
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: white;
+    color: #f26002;
+    font-family: "Roboto Slab";
+    font-weight: bolder;
+    line-height: 45px;
+    font-size: 20px;
+    align-self: center;
+    margin: 45px 0px;
+  }
 }
+.capitalize {
+  text-transform: capitalize;
+}
+
 .main-purchase {
   border: solid seagreen 3px;
 }
