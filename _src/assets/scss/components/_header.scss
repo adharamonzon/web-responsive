@@ -1,3 +1,50 @@
-.header {
+/* pendiente: 
+  fontfamily no es 100% igual 
+  arrow, posición caja e icono!!!*/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   border: solid black 3px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  .link-icon {
+    background-color: #0271bc;
+    padding: 15px 14px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px;
+  }
+  .title {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: "RobotoSlab-Bold";
+    font-weight: 900;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 16px;
+    font-family: "roboto";
+    font-weight: 300;
+    text-align: center;
+  }
+  .arrow-box {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+  }
+  .arrow-btn {
+    text-align: center;
+  }
 }
