@@ -11,36 +11,36 @@
 
   .info {
     height: 30px;
-    font-family: "Roboto Slab";
-    color: #8ccbea;
+    font-family: $font-text;
+    color: $background-2;
     line-height: 30px;
     font-size: 14px;
   }
   .title {
-    font-family: "Roboto Slab";
+    font-family: $font-titel;
     font-weight: bold;
     font-size: 24px;
-    color: black;
+    color: $font-color2;
     line-height: 30px;
     height: 60px;
     width: 290px;
   }
   .text {
-    font-family: "Roboto Slab";
+    font-family: $font-text;
     font-size: 18px;
     line-height: 30px;
-    color: #4a4a4a;
+    color: $font-color3;
     text-align: left;
     /* width: 290px; */
   }
   .btn {
-    border: solid 2px #f26002;
+    border: solid 2px $font-color4;
     width: 76px;
     height: 45px;
     border-radius: 22.5px;
-    background-color: white;
-    color: #f26002;
-    font-family: "Roboto Slab";
+    background-color: $background-1;
+    color: $font-color4;
+    font-family: $font-titel;
     font-weight: bolder;
     font-size: 20px;
     align-self: center;
@@ -48,20 +48,17 @@
     margin-bottom: 45px;
   }
 }
-/* .main-purchase {
-  border: solid seagreen 3px; */
-/* } */
 .main-purchase {
-  background-color: #eff9ff;
+  background-color: $background-2;
   display: grid;
   /* width: 290px; */
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  text-align: center;
+  text-align: $primary-position;
   padding-top: 30px;
-  color: black;
+  color: $font-color2;
   .title {
-    font-family: "Roboto Slab";
+    font-family: $font-titel$font-titel;
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 45px;
@@ -73,37 +70,37 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 45px;
-    place-items: center;
+    /* place-items: center; */
     height: 60px;
   }
   .name {
-    color: black;
+    color: $font-color2;
     font-size: 18px;
-    font-family: "Roboto Slab";
+    font-family: $font-titel;
     width: 180px;
-    text-align: center;
+    text-align: $primary-position;
     margin-left: 70px;
     margin-left: 70px;
   }
   .text {
-    color: black;
+    color: $font-color2;
     font-size: 18px;
-    font-family: "Roboto Slab";
+    font-family: $font-text;
     width: 180px;
-    text-align: center;
+    text-align: $primary-position;
     margin-left: 70px;
     margin-left: 70px;
   }
   .btn {
     width: 184px;
     height: 45px;
-    font-family: "Roboto Slab";
+    font-family: $font-text;
     font-size: 20px;
-    text-align: center;
+    text-align: $primary-position;
     line-height: 45px;
     border-radius: 22.5px;
-    background-color: #f26002;
-    color: white;
+    background-color: $font-color4;
+    color: $font-color1;
     margin-bottom: 60px;
     margin-top: 45px;
   }

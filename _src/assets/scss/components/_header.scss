@@ -29,7 +29,7 @@
     font-size: 42px;
     font-family: $font-titel;
     font-weight: 900;
-    text-align: $textposition;
+    text-align: $primary-position;
   }
   .space::before {
     white-space: pre-line;
@@ -39,7 +39,7 @@
     font-size: 16px;
     font-family: $font-text;
     font-weight: 300;
-    text-align: $textposition;
+    text-align: $primary-position;
   }
   .arrow-box {
     display: flex;
@@ -53,7 +53,7 @@
     border-radius: $button-radio;
   }
   .arrow-btn {
-    text-align: center;
+    text-align: $primary-position;
     margin-top: 18px;
   }
 }
