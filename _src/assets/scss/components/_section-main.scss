@@ -53,7 +53,7 @@
 .main-purchase {
   background-color: $background-2;
   display: grid;
-  /* width: 290px; */
+  width: 100vw;
   grid-template-columns: 1fr;
   grid-template-rows: 30px 93px 93px 93px 45px;
   row-gap: 45px;
