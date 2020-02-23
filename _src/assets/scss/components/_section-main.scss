@@ -8,7 +8,6 @@
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 30px;
-
   .info {
     height: 30px;
     font-family: $font-text;
@@ -24,6 +23,9 @@
     line-height: $lineheight30;
     height: 60px;
     width: 290px;
+  }
+  .name {
+    font-weight: bolder;
   }
   .text {
     font-family: $font-text;
