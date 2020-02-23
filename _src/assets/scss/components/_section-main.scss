@@ -1,5 +1,5 @@
 /* COSAS POR HACER:
-  boton!! */
+  grid */
 .capitalize {
   text-transform: capitalize;
 }
@@ -12,25 +12,24 @@
   .info {
     height: 30px;
     font-family: $font-text;
-    color: $background-2;
-    line-height: 30px;
+    color: $font-color5;
+    line-height: $lineheight30;
     font-size: 14px;
   }
   .title {
     font-family: $font-titel;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 24px;
     color: $font-color2;
-    line-height: 30px;
+    line-height: $lineheight30;
     height: 60px;
     width: 290px;
   }
   .text {
     font-family: $font-text;
     font-size: 18px;
-    line-height: 30px;
+    line-height: $lineheight30;
     color: $font-color3;
-    text-align: left;
     /* width: 290px; */
   }
   .btn {
@@ -43,35 +42,31 @@
     font-family: $font-titel;
     font-weight: bolder;
     font-size: 20px;
-    align-self: center;
     margin-top: 30px;
     margin-bottom: 45px;
   }
 }
+/* secction purchase */
+
 .main-purchase {
   background-color: $background-2;
   display: grid;
   /* width: 290px; */
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 30px 93px 93px 93px 45px;
+  row-gap: 45px;
   text-align: $primary-position;
   padding-top: 30px;
   color: $font-color2;
+  padding-bottom: 60px;
   .title {
-    font-family: $font-titel$font-titel;
+    font-family: $font-titel;
     font-size: 24px;
-    line-height: 30px;
+    font-weight: bolder;
+    line-height: $lineheight30;
     margin-bottom: 45px;
     margin-left: 15px;
     width: 290px;
-  }
-  .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 45px;
-    /* place-items: center; */
-    height: 60px;
   }
   .name {
     color: $font-color2;
@@ -86,6 +81,7 @@
     color: $font-color2;
     font-size: 18px;
     font-family: $font-text;
+    line-height: $lineheight30;
     width: 180px;
     text-align: $primary-position;
     margin-left: 70px;
@@ -101,7 +97,6 @@
     border-radius: 22.5px;
     background-color: $font-color4;
     color: $font-color1;
-    margin-bottom: 60px;
-    margin-top: 45px;
+    margin-left: 60px;
   }
 }
