@@ -1,5 +1,3 @@
-/* COSAS POR HACER:
-  grid */
 .capitalize {
   text-transform: capitalize;
 }
@@ -47,7 +45,7 @@
     margin-bottom: 45px;
     transition: ease 2s;
     &:hover {
-      background-color: #f07930;
+      background-color: #faa36d;
     }
   }
 }
@@ -56,9 +54,7 @@
 .main-purchase {
   background-color: $background-2;
   display: grid;
-  width: 100vw;
   grid-template-columns: 1fr;
-  /*   row-gap: 45px; */
   text-align: $primary-position;
   padding-top: 30px;
   color: $font-color2;

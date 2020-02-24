@@ -1,6 +1,5 @@
 .footer {
   background-color: $background-3;
-  width: 100w;
   animation-name: footeranimation;
   animation-duration: 5s;
 }
@@ -9,7 +8,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   .links-info {
     list-style: none;
     margin-top: 60px;
@@ -22,7 +20,7 @@
   .links-social {
     list-style: none;
     margin-top: 30px;
-    line-height: 30px;
+    line-height: $lineheight30;
     font-size: 16px;
     font-family: $font-text;
     font-weight: lighter;
@@ -41,16 +39,16 @@
     margin-top: 30px;
     color: $font-color1;
     font-size: 14px;
-    line-height: 30px;
+    line-height: $lineheight30;
     font-family: $font-text;
   }
   .date {
     font-size: 14px;
-    line-height: 30px;
+    line-height: $lineheight30;
   }
   .copy-right-text {
     font-size: 14px;
-    line-height: 30px;
+    line-height: $lineheight30;
     margin-bottom: 45px;
   }
   .heart {
@@ -67,7 +65,10 @@
   border-radius: $button-radio;
   display: flex;
   justify-content: center;
-  align-content: center;
+}
+.img {
+  animation-name: button;
+  animation-duration: 3s;
 }
 
 @keyframes footeranimation {
@@ -76,5 +77,15 @@
   }
   to {
     background-color: #304268;
+  }
+}
+@keyframes button {
+  from {
+    width: 21;
+    height: 45px;
+  }
+  to {
+    width: 26px;
+    height: 50px;
   }
 }
