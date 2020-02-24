@@ -1,5 +1,5 @@
 @media all and (min-width: 768px) {
-  .footer {
+  .section-footer {
     width: 100vw;
     flex-direction: row-reverse;
     align-items: flex-start;
@@ -24,9 +24,9 @@
       order: 1;
     }
   }
-  .arrow {
-    left: 430px;
-  }
 }
 @media all and (min-width: 1200px) {
+  .section-footer {
+    justify-content: center;
+  }
 }

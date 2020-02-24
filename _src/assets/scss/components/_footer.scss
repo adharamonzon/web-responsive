@@ -1,9 +1,15 @@
 .footer {
+  background-color: $background-3;
+  width: 100w;
+  animation-name: footeranimation;
+  animation-duration: 5s;
+}
+.section-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: $background-3;
+
   .links-info {
     list-style: none;
     margin-top: 60px;
@@ -52,14 +58,23 @@
   }
 }
 .arrow {
-  margin-top: -22px;
+  top: -22px;
   position: relative;
-  left: 43%;
+  left: 50%;
   width: 45px;
   height: 45px;
   background-color: $background-1;
   border-radius: $button-radio;
   display: flex;
-  align-items: center;
-  padding-left: 12px;
+  justify-content: center;
+  align-content: center;
+}
+
+@keyframes footeranimation {
+  from {
+    background-color: #7b9de6;
+  }
+  to {
+    background-color: #304268;
+  }
 }

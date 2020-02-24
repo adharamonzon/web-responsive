@@ -32,11 +32,11 @@
 @media all and (min-width: 768px) {
   .main-purchase {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 90px 112px 90px;
+    /* grid-template-rows: 90px 112px 90px; */
     row-gap: 20px;
     width: 100vw;
     .title {
-      grid-column: 2/3;
+      grid-column: 1/4;
       grid-row: 1/2;
       font-size: 26px;
       line-height: 45px;
@@ -44,55 +44,27 @@
     }
     .name {
       font-size: 24px;
-      width: 210px;
     }
     .text {
       font-size: 20px;
-      width: 210px;
     }
     .container {
       grid-column: span 1;
       grid-row: 2/3;
     }
     .btn {
-      grid-column: 2/3;
+      grid-column: 1/4;
       grid-row: 3/4;
       justify-content: center;
-      margin-left: 80px;
       margin-top: 40px;
     }
   }
 }
 @media all and (min-width: 1200px) {
-  .main-purchase {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 90px 112px 90px;
-    row-gap: 20px;
-    width: 100vw;
-    .title {
-      grid-column: 2/3;
-      grid-row: 1/2;
-      font-size: 26px;
-      line-height: 45px;
-    }
-    .name {
-      font-size: 24px;
-      width: 210px;
-    }
-    .text {
-      font-size: 20px;
-      width: 210px;
-    }
-    .container {
-      grid-column: span 1;
-      grid-row: 2/3;
-    }
-    .btn {
-      grid-column: 2/3;
-      grid-row: 3/4;
-      justify-content: center;
-      margin-left: 80px;
-      margin-top: 40px;
-    }
+  .name {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 20px;
   }
 }
