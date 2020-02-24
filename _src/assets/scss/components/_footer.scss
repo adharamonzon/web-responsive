@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   background-color: $background-3;
-  width: 320px;
   .links-info {
     list-style: none;
     margin-top: 60px;
@@ -54,8 +53,8 @@
 }
 .arrow {
   margin-top: -22px;
-  position: absolute;
-  left: 138px;
+  position: relative;
+  left: 43%;
   width: 45px;
   height: 45px;
   background-color: $background-1;
