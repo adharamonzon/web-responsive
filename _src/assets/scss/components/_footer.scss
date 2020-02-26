@@ -41,6 +41,8 @@
     font-size: 14px;
     line-height: $lineheight30;
     font-family: $font-text;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .date {
     font-size: 14px;
@@ -65,6 +67,7 @@
   border-radius: $button-radio;
   display: flex;
   justify-content: center;
+  visibility: hidden;
 }
 .img {
   animation-name: button;

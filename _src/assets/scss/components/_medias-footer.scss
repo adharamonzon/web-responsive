@@ -1,4 +1,7 @@
 @media all and (min-width: 768px) {
+  .footer .arrow {
+    visibility: visible;
+  }
   .section-footer {
     flex-direction: row-reverse;
     align-items: flex-start;

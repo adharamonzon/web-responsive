@@ -94,11 +94,14 @@
     text-align: $primary-position;
     line-height: 45px;
     border-radius: 22.5px;
-    background-color: $font-color4;
-    color: $font-color1;
+    color: $font-color4;
+    background-color: white;
+    font-weight: bold;
     position: relative;
     margin: auto;
+    margin-top: 20px;
     transition: ease 2s;
+    border: solid 2px $font-color4;
     &:hover {
       font-size: 25px;
       width: 200px;
