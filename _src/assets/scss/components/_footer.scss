@@ -6,7 +6,6 @@
 .section-footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   .links-info {
     list-style: none;
@@ -34,14 +33,12 @@
 
   .copy-right {
     display: flex;
-    flex-direction: column;
     text-align: $primary-position;
     margin-top: 30px;
     color: $font-color1;
     font-size: 14px;
     line-height: $lineheight30;
     font-family: $font-text;
-    display: flex;
     flex-direction: column-reverse;
   }
   .date {
