@@ -2,74 +2,74 @@
   background-color: $background-3;
   animation-name: footeranimation;
   animation-duration: 5s;
-}
-.section-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  .links-info {
-    list-style: none;
-    margin-top: 60px;
-    line-height: 30px;
-    font-size: 16px;
-    font-family: $font-text;
-    font-weight: lighter;
-    text-align: $primary-position;
-  }
-  .links-social {
-    list-style: none;
-    margin-top: 30px;
-    line-height: $lineheight30;
-    font-size: 16px;
-    font-family: $font-text;
-    font-weight: lighter;
-    text-align: $primary-position;
-  }
-  .list-item {
-    text-decoration: none;
-    color: white;
-    text-transform: $textUpercase;
-  }
-
-  .copy-right {
+  &--arrow {
+    top: -22px;
+    position: relative;
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: $background-1;
+    border-radius: $button-radio;
     display: flex;
-    text-align: $primary-position;
-    margin-top: 30px;
-    color: $font-color1;
-    font-size: 14px;
-    line-height: $lineheight30;
-    font-family: $font-text;
-    flex-direction: column-reverse;
+    justify-content: center;
   }
-  .date {
-    font-size: 14px;
-    line-height: $lineheight30;
+  &--img {
+    animation-name: button;
+    animation-duration: 3s;
   }
-  .copy-right-text {
-    font-size: 14px;
-    line-height: $lineheight30;
-    margin-bottom: 45px;
-  }
-  .heart {
-    color: $font-color4;
+  &--section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__links-info {
+      list-style: none;
+      margin-top: 60px;
+      line-height: 30px;
+      font-size: 16px;
+      font-family: $font-text;
+      font-weight: lighter;
+      text-align: $primary-position;
+    }
+    &__list-item {
+      text-decoration: none;
+      color: white;
+      text-transform: $textUpercase;
+    }
+    &__links-social {
+      list-style: none;
+      margin-top: 30px;
+      line-height: $lineheight30;
+      font-size: 16px;
+      font-family: $font-text;
+      font-weight: lighter;
+      text-align: $primary-position;
+    }
+    &__copy-right {
+      display: flex;
+      text-align: $primary-position;
+      margin-top: 30px;
+      color: $font-color1;
+      font-size: 14px;
+      line-height: $lineheight30;
+      font-family: $font-text;
+      flex-direction: column-reverse;
+      &--date {
+        font-size: 14px;
+        line-height: $lineheight30;
+      }
+      &--text {
+        font-size: 14px;
+        line-height: $lineheight30;
+        margin-bottom: 45px;
+      }
+      &--heart {
+        color: $font-color4;
+      }
+    }
   }
 }
-.arrow {
-  top: -22px;
-  position: relative;
-  left: 50%;
-  width: 45px;
-  height: 45px;
-  background-color: $background-1;
-  border-radius: $button-radio;
-  display: flex;
-  justify-content: center;
-  visibility: hidden;
-}
-.img {
-  animation-name: button;
-  animation-duration: 3s;
-}
+
+//animaciones:
 
 @keyframes footeranimation {
   from {

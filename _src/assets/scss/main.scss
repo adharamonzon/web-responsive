@@ -1,10 +1,10 @@
-@import "core/_variables";
-@import "core/reset";
+@import 'core/_variables';
+@import 'core/_reset';
 
-@import "components/header";
-@import "components/section-main";
-@import "components/footer";
+@import 'components/_header';
+@import 'components/_section-main';
+@import 'components/_footer';
 
-@import "components/medias-header";
-@import "components/medias-main";
-@import "components/medias-footer";
+@import 'media-queries/header';
+@import 'media-queries/main';
+@import 'media-queries/footer';

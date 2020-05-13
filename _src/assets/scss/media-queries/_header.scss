@@ -1,20 +1,22 @@
 /* HEADER */
 @media all and (min-width: 768px) {
-  .hero .title {
-    font-size: 80px;
-    width: 690px;
-  }
-  .hero .subtitle {
-    font-size: 24px;
+  .hero {
+    &--title {
+      font-size: 80px;
+      width: 690px;
+    }
+    &--subtitle {
+      font-size: 24px;
+    }
   }
 }
 @media all and (min-width: 1200px) {
   .hero {
     background-position: top;
-    .title {
+    &--title {
       font-size: 100px;
     }
-    .subtitle {
+    &--subtitle {
       font-size: 24px;
     }
   }

@@ -11,7 +11,7 @@
   color: $font-color1;
   height: 100vh;
   width: 100%;
-  .link-icon {
+  &--link-icon {
     background-color: #0271bc;
     padding: 15px 14px;
     position: fixed;
@@ -21,7 +21,7 @@
     height: 44px;
     z-index: 999;
   }
-  .title {
+  &--title {
     margin-top: 230px;
     margin-bottom: 10px;
     text-transform: $textUpercase;
@@ -31,14 +31,14 @@
     text-align: $primary-position;
     width: 320px;
   }
-  .subtitle {
+  &--subtitle {
     font-size: 16px;
     font-family: $font-text;
     font-weight: 300;
     text-align: $primary-position;
     margin-bottom: 45px;
   }
-  .arrow-box {
+  &--arrow-box {
     display: flex;
     position: relative;
     justify-content: center;
@@ -48,7 +48,7 @@
     background-color: $background-1;
     border-radius: $button-radio;
   }
-  .arrow-btn {
+  &--arrow-btn {
     text-align: $primary-position;
     margin-top: 18px;
   }
