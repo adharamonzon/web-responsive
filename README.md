@@ -1,6 +1,6 @@
 # Evaluación Final Modulo 1 (HTML y CSS), Adalab
 
-![Imagen de la web](./src/assets/images/photo.png)
+![Imagen de la web](./_src/assets/images/photo.png)
 
 ## Objetivo
 
